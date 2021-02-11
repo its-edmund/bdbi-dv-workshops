@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const FunctionalComponent = () => {
+const FunctionalComponent = (props) => {
   const [myState, setMyState] = useState(2);
 
   const changeState = () => {
@@ -8,7 +8,7 @@ const FunctionalComponent = () => {
   }
 
   const printState = () => {
-
+    console.log(myState);
   }
 
   return <h1>Functional Components</h1>

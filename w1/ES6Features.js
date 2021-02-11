@@ -1,3 +1,8 @@
+// Traditional functions
+function func() {
+  return 1;
+}
+
 // Arrow functions
 const func = (parameter1, parameter2) => {
   return 1;
@@ -38,8 +43,11 @@ const Person = {
   },
 }
 
+Person.name;
+
 function Test({ name, age }) {
   console.log(name + " " + age);
 }
 
 Test(person);
+

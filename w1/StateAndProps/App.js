@@ -1,7 +1,14 @@
 import React from 'react';
 
-import FunctionalComponent from './FunctionalComponent.js'
+import ArrowFunctionComponent from './ArrowFunctionComponent.js'
+import FunctionalComponent from './FunctionalComponents'
+import ClassBasedComponent from './ClassBasedComponents'
 
 const App = () => {
-  return <FunctionalComponent />
+  return (
+    <>
+      <FunctionalComponent />
+      <ClassBasedComponent />
+    </>
+  );
 }
