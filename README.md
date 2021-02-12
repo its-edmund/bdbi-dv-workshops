@@ -1,5 +1,7 @@
 # ✨ Helpful Resources ✨
 
+### Workshop Video Recordings
+- Workshop #1: https://bluejeans.com/s/mOMd_dVFENB/
 ### Google Slide Links
 - Workshop #1: https://tinyurl.com/bdbi-dv-workshop-1
 ### Learning technologies

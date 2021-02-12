@@ -49,5 +49,5 @@ function Test({ name, age }) {
   console.log(name + " " + age);
 }
 
-Test(person);
+Test(Person);
 
