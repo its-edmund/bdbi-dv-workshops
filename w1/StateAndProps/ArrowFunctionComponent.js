@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 
-const FunctionalComponent = (props) => {
+const ArrowFunctionComponent = (props) => {
   const [myState, setMyState] = useState(2);
 
   const changeState = () => {
+    myState = 0;
     setMyState(4);
   }
 
@@ -11,7 +12,7 @@ const FunctionalComponent = (props) => {
     console.log(myState);
   }
 
-  return <h1>Functional Components</h1>
+  return <h1>Arrow Function Components</h1>
 }
 
-export default FunctionalComponent;
+export default ArrowFunctionComponent;
